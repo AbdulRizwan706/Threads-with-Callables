@@ -12,7 +12,7 @@ import java.util.ArrayList;
 //Client class should invoke ArrayCreator over a new thread
 //and get the arraylist from ArrayCreator class and print it.
 public class Client {
-    public static void main(String args[]) throws Exception{
+    public static void main(String[] args) throws Exception{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
